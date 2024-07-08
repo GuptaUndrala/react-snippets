@@ -1,0 +1,32 @@
+.grid-boxes-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    width: 809px;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.grid-boxes-wrapper .grid-box {
+    display: flex;
+    flex-basis: 200px;
+    height: 200px;
+    background-color: #ccc;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    line-height: 1;
+    font-weight: 500;
+}
+
+.grid-boxes-wrapper .grid-box:hover {
+    opacity: 0.8;
+}
+
+.grid-boxes-wrapper .grid-box.active {
+    background: radial-gradient(ellipse at center,  #f6e6b4 0%,#ed9017 100%);
+}

@@ -1,0 +1,21 @@
+.pages-list {
+    background-color: #eee;
+    padding: 10px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pages-list li {
+    font-size: 20px;
+    line-height: 1.4;
+    color: #666;
+    text-transform: uppercase;
+    padding: 10px;
+    cursor: pointer;
+}
